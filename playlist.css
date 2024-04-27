@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(36, 36, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+.logo a{
+    font-size: 32px;
+}
+span{
+    color: rgb(214, 56, 12);
+    font-size: 35px;
+}
+main{
+    display: flex;
+}
+.list{
+    width: 30vw;
+    height: 90vh;
+    background-color: rgba(36, 36, 51,0.95);
+    padding: 12px 23px 28px 15px;
+}
+.list em{
+    color: wheat;
+    font-size: 28px;
+}
+#songlist{
+    margin: 40px;
+}
+#songlist li{
+    font-size: 30px;
+    padding: 8px;
+    cursor: pointer;
+    list-style-type: none;
+}
+#songlist em{
+    font-size: 16px;
+    color: black;
+}
+#songlist li:hover{
+    font-size: 30px;
+   color: wheat;
+}
+.fa-music{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left:-60px;
+}
+.fa-circle-play{
+    position: absolute;
+    left: 26vw;
+}
+.music{
+    width: 69vw;
+    height: 90vh;
+    background-color: rgb(214, 206, 190);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ .cover {
+    /* background-image: url("arijit.jpg"); */
+    width:70%;
+   height: 70%;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+background-size: cover;
+border-radius: 34px;
+position: relative;
+top: 2vh;
+}
+.play-pause{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    align-items: center;
+}
+ .fa-play{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 5px 15px;
+    cursor: pointer;
+    position: relative;
+   
+}
+.fa-circle-pause{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 26vw;
+}
+.fa-pause{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-backward-step{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#Bar{
+    width:64%;
+    position: relative;
+    left: 120px;
+    bottom: 54px;
+    cursor: pointer;
+}
+#songName{
+color: grey;
+font-size: 16px;
+}
+.fa-volume-high{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor:pointer;
+    position: relative;
+   
+    left: -42vw;
+    z-index: 5;
+}
+#vol{
+    position: relative;
+    left: -41.5vw;
+    bottom: 23px;
+}

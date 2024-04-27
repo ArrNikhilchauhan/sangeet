@@ -1,0 +1,2091 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(36, 36, 51);
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+.logo{
+    width: 40vw;
+    padding-left: 40px;
+    font-size: 28px;
+}
+.logo a{
+    font-size: 32px;
+}
+span{
+    color: rgb(214, 56, 12);
+    font-size: 35px;
+}
+.nav1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.playlist{
+    position: relative;
+    left: 400px;
+    font-size: 22px;
+    color: white;
+}
+
+#Acc{
+    position: absolute;
+    right: 80px;
+}
+.hero{
+    background-color: rgb(40, 40, 84);
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+}
+.hero img{
+    position: absolute;
+    right: 10px;
+    height: 480px;
+}
+.info{
+    font-size: 30px;
+}
+.info span{
+    font-size: 40px;
+    margin: 15px;
+}
+.info{
+    width: 700px;
+    height: 170px;
+    color: white;
+    word-spacing: 6px;
+    position: relative;
+    left: 100px;
+}
+button{
+    position: relative;
+    bottom: -140px;
+    right: 550px;
+    width: 500px;
+    background-color: black;
+    color: rgb(194, 206, 206);
+    font-weight: 200;
+    font-size: 40px;
+    border: 1px solid rgb(214, 56, 12);
+    border-radius: 10px;
+}
+.pop-art{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+position: relative;
+color: rgb(13, 13, 13);
+padding: 12px;
+
+}
+.artist{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 32, 43);
+}
+.artist1{
+    width: 20%;
+    height: 100%;
+    padding:18px;
+}
+.artist1 .img1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("arijit.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist1 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.artist2{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.artist2 .img2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("vishal.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist2 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.artist3{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.artist3 .img3{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("vishal-shekhar.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist3 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.artist4{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.artist4 .img4{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("honey singh.webp");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist4 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.artist5{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.artist5 .img5{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("Sonu-Nigam-.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist5 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.artist6{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.artist6 .img6{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("malik.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist6 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.Album{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+position: relative;
+color: rgb(13, 13, 13);
+padding: 12px;
+
+}
+.albums{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 32, 43);
+}
+.album1{
+    width: 20%;
+    height: 100%;
+    padding:18px;
+}
+.album1 .img1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("arijit.jpg");
+    background-size: cover;
+  
+}
+.album1 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.album2{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.album2 .img2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("vishal.jpeg");
+    background-size: cover;
+
+}
+.album2 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.album3{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.album3 .img3{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("vishal-shekhar.jpg");
+    background-size: cover;
+ 
+}
+.album3 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.album4{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.album4 .img4{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("honey singh.webp");
+    background-size: cover;
+
+}
+.album4 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.album5{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.album5 .img5{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("Sonu-Nigam-.jpg");
+    background-size: cover;
+   
+}
+.album5 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.album6{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.album6 .img6{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("malik.jpeg");
+    background-size: cover;
+    
+}
+.album6 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.songs{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+position: relative;
+color: rgb(13, 13, 13);
+padding: 12px;
+
+}
+.song{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 32, 43);
+}
+.song1{
+    width: 20%;
+    height: 100%;
+    padding:18px;
+}
+.song1 .img1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("arijit.jpg");
+    background-size: cover;
+  
+}
+.song1 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.song2{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.song2 .img2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("vishal.jpeg");
+    background-size: cover;
+
+}
+.song2 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.song3{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.song3 .img3{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("vishal-shekhar.jpg");
+    background-size: cover;
+ 
+}
+.song3 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.song4{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.song4 .img4{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("honey singh.webp");
+    background-size: cover;
+
+}
+.song4 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.song5{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.song5 .img5{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("Sonu-Nigam-.jpg");
+    background-size: cover;
+   
+}
+.song5 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.song6{
+    width: 20%;
+    height: 100%;
+    padding: 18px;
+}
+.song6 .img6{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -5px;
+    background-image: url("malik.jpeg");
+    background-size: cover;
+    
+}
+.song6 p{
+    color: white;
+    margin: 8px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.musicPlayer{
+    margin-top: 23px;
+    height: 80px;
+    width: 100vw;
+    background: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    bottom: 20px;
+    opacity: 1;
+}
+.play-pause{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+}
+.fa-circle-play{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-circle-pause{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-backward-step{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-volume-high{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor:pointer;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    z-index: 5;
+}
+#range{
+    width: 80%;
+    cursor: pointer;
+}
+.musicPlayer span{
+    color: white;
+}
+.musicPlayer .songName{
+    color: rgb(194, 206, 206);
+   position: absolute;
+   left: 8vw;
+   font-size: 15px;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.vol{
+    width: 100px;
+    display:flex;
+}
+#vol{
+    width: 70px;
+  cursor: pointer;
+  display: none;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+@media(min-width:100px) and (max-width:400px){
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .playlist{
+        display: none;
+    }
+    #Acc{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav1{
+        display: none;
+    }
+    .hero{
+        background-color: rgb(40, 40, 84);
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .hero img{
+        width: 20vw;
+        position: absolute;
+        left: 10px;
+        height: 200px;
+    }
+    .info{
+        width: 80vw;
+        font-size: 10px;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+       
+    }
+    button{
+      display: none;
+    }
+    .pop-art{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    }
+    .artist{
+        height: 170px;
+        width: 100vw;
+        overflow-y: scroll;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+    }
+    .artist1{
+        width: 16%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .artist1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -4px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    
+    .artist2{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist3{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist4{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist5{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist6{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .Album{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    
+    }
+    .albums{
+        height: 170px;
+        width: 100vw;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+        overflow-y: scroll;
+    }
+    .album1{
+        width: 20%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .album1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+      
+    }
+    .album1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album2{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+    
+    }
+    .album2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album3{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+     
+    }
+    .album3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album4{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+    
+    }
+    .album4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album5{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+       
+    }
+    .album5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album6{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        
+    }
+    .album6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .songs{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    
+    }
+    .song{
+        height: 170px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+        overflow-y: scroll;
+    }
+    .song1{
+        width: 20%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .song1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+      
+    }
+    .song1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song2{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .song2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+    
+    }
+    .song2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song3{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .song3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+    }
+    .song3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song4{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .song4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+    
+    }
+    .song4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song5{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .song5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+       
+    }
+    .song5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song6{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .song6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        
+    }
+    .song6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .fa-volume-high{
+        color: white;
+        font-size: 11px;
+        font-weight: bolder;
+        cursor:pointer;
+        position:relative;
+       left: 140px;
+    }
+   #vol{
+    position: relative;
+    left: 145px;
+   }
+   .fa-circle-play{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-circle-pause{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-backward-step{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+ .play-pause{
+    position: relative;
+    bottom: 20px;
+ }  
+}
+@media(min-width:400px) and (max-width:700px){
+    .fa-volume-high{
+        color: white;
+        font-size: 11px;
+        font-weight: bolder;
+        cursor:pointer;
+        position:relative;
+       left: 140px;
+    }
+   #vol{
+    position: relative;
+    left: 145px;
+   }
+   .fa-circle-play{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-circle-pause{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-backward-step{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+ .play-pause{
+    position: relative;
+    bottom: 20px;
+ }  
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .playlist{
+        display: none;
+    }
+    #Acc{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav1{
+        display: none;
+    }
+    .hero{
+        background-color: rgb(40, 40, 84);
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .hero img{
+        width: 20vw;
+        position: absolute;
+        left: 10px;
+        height: 200px;
+    }
+    .info{
+        width: 80vw;
+        font-size: 10px;
+        position: absolute;
+        top: 100px;
+        left: 130px;
+       
+    }
+    button{
+      display: none;
+    }
+    .pop-art{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    }
+    .artist{
+        height: 170px;
+        width: 100vw;
+        overflow-y: scroll;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+    }
+    .artist1{
+        width: 16%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .artist1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -4px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    
+    .artist2{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist3{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist4{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist5{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist6{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .Album{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    
+    }
+    .albums{
+        height: 170px;
+        width: 100vw;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+        overflow-y: scroll;
+    }
+    .album1{
+        width: 20%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .album1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+      
+    }
+    .album1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album2{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+    
+    }
+    .album2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album3{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+     
+    }
+    .album3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album4{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+    
+    }
+    .album4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album5{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+       
+    }
+    .album5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album6{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        
+    }
+    .album6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .songs{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    
+    }
+    .song{
+        height: 170px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+        overflow-y: scroll;
+    }
+    .song1{
+        width: 20%;
+        height: 100%;
+        padding:18px;
+    }
+    .song1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+      
+    }
+    .song1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song2{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+    
+    }
+    .song2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song3{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+     
+    }
+    .song3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song4{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+    
+    }
+    .song4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song5{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+       
+    }
+    .song5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song6{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        
+    }
+    .song6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+}
+@media(min-width:700px) and (max-width:900px){
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .playlist{
+        display: none;
+    }
+    #Acc{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav1{
+        display: none;
+    }
+    .hero{
+        background-color: rgb(40, 40, 84);
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .hero img{
+        width: 20vw;
+        position: absolute;
+        left: 10px;
+        height: 200px;
+    }
+    .info{
+        width: 80vw;
+        font-size: 10px;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+       
+    }
+    button{
+      display: none;
+    }
+    .pop-art{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    }
+    .artist{
+        height: 170px;
+        width: 100vw;
+        overflow-y: scroll;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+    }
+    .artist1{
+        width: 16%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .artist1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -4px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    
+    .artist2{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist3{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist4{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist5{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .artist6{
+        width: 16%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .artist6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .artist6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .fa-volume-high{
+        color: white;
+        font-size: 11px;
+        font-weight: bolder;
+        cursor:pointer;
+        position:relative;
+       left: 140px;
+    }
+   #vol{
+    position: relative;
+    left: 145px;
+   }
+   .fa-circle-play{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-circle-pause{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-backward-step{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+ .play-pause{
+    position: relative;
+    bottom: 20px;
+ }  
+    .Album{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    
+    }
+    .albums{
+        height: 170px;
+        width: 100vw;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+        overflow-y: scroll;
+    }
+    .album1{
+        width: 20%;
+        height: 100%;
+        padding:18px;
+        margin-right: 50px;
+    }
+    .album1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+      
+    }
+    .album1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album2{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+    
+    }
+    .album2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album3{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+     
+    }
+    .album3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album4{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+    
+    }
+    .album4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album5{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+       
+    }
+    .album5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .album6{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .album6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        
+    }
+    .album6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .songs{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    position: relative;
+    color: rgb(13, 13, 13);
+    padding: 12px;
+    
+    }
+    .song{
+        height: 170px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(32, 32, 43);
+        overflow-y: scroll;
+    }
+    .song1{
+        width: 20%;
+        height: 100%;
+        padding:18px;
+    }
+    .song1 .img1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("arijit.jpg");
+        background-size: cover;
+      
+    }
+    .song1 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song2{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song2 .img2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal.jpeg");
+        background-size: cover;
+    
+    }
+    .song2 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song3{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song3 .img3{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("vishal-shekhar.jpg");
+        background-size: cover;
+     
+    }
+    .song3 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song4{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song4 .img4{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("honey singh.webp");
+        background-size: cover;
+    
+    }
+    .song4 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song5{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song5 .img5{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("Sonu-Nigam-.jpg");
+        background-size: cover;
+       
+    }
+    .song5 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .song6{
+        width: 20%;
+        height: 100%;
+        padding: 18px;
+    }
+    .song6 .img6{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        background-image: url("malik.jpeg");
+        background-size: cover;
+        
+    }
+    .song6 p{
+        color: white;
+        margin: 8px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+}

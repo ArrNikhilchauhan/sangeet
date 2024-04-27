@@ -1,0 +1,52 @@
+span{
+    color: rgb(214, 56, 12);
+    font-size: 35px;
+}
+.main{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.forms{
+   display: flex; 
+border: 2px solid black;
+width:500px;
+height: 400px;
+color: white;
+padding: 30px;
+background-color: rgb(36,36,51);
+position: relative;
+top: 80px;
+}
+.first{
+    display: inline-block;
+    margin-right:  12px;
+}
+.first input{
+    width: 210px;
+}
+.last{
+    display: inline-block;
+    margin: 0px 12px;
+}
+.last input{
+    width: 210px;
+}
+input{
+    width: 350px;
+    height: 25px;
+}
+.forms button{
+    background-color: rgb(214, 56, 12);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+   
+    margin: 25px;position: relative;
+    left: 300px;
+}
+.forms a{
+  
+    font-size: 25px;
+    color:rgb(214, 56, 12);
+}
